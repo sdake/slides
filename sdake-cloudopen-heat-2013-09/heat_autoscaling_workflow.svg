@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="heat_autoscaling_workflow.svg"
+   inkscape:version="0.48.4 r9939"
+   version="1.1"
+   id="svg2"
+   height="990"
+   width="1530"
+   inkscape:export-filename="/home/sdake/co/cloudformation_overview.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="810.0314"
+     inkscape:cy="251.69671"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer4"
+     showgrid="false"
+     inkscape:window-width="603"
+     inkscape:window-height="477"
+     inkscape:window-x="274"
+     inkscape:window-y="123"
+     inkscape:window-maximized="0" />
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="EmptyTriangleOutL"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="EmptyTriangleOutL"
+       style="overflow:visible">
+      <path
+         id="path6474"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(0.8,0,0,0.8,-4.8,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Lend"
+       style="overflow:visible">
+      <path
+         id="path6334"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend"
+       style="overflow:visible">
+      <path
+         id="path6316"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <filter
+       inkscape:collect="always"
+       id="filter4269">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="20.59217"
+         id="feGaussianBlur4271" />
+    </filter>
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Component Containers"
+     style="display:inline"
+     transform="translate(0,-62.3622)">
+    <rect
+       ry="138.25259"
+       rx="142.57782"
+       y="87.627487"
+       x="227.86841"
+       height="945.17676"
+       width="1114.0403"
+       id="rect4065-6-9-3-6-5-4-4-6-8"
+       style="fill:#000000;fill-opacity:1;stroke:none;display:inline;filter:url(#filter4269)"
+       inkscape:transform-center-x="-1313.7655"
+       inkscape:transform-center-y="235.44846"
+       transform="matrix(1,0,0,0.84286805,0,170.0522)"
+       inkscape:export-filename="/home/sdake/repos/slides/sdake-cloudopen-heat-2013-09/heat_autoscaling_workflow.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       ry="112.46024"
+       rx="142.72525"
+       y="248.42873"
+       x="212.44321"
+       height="768.84491"
+       width="1115.1923"
+       id="rect4065-6-9-3-6-5-4-4-6"
+       style="fill:#241ab2;fill-opacity:1;stroke:#7972d8;stroke-width:10.64779949;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       inkscape:transform-center-x="-1315.124"
+       inkscape:transform-center-y="227.22806"
+       inkscape:export-filename="/home/sdake/repos/slides/sdake-cloudopen-heat-2013-09/heat_autoscaling_workflow.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <flowRoot
+       id="flowRoot4135-5-4-8-7-5-2-7-2-6-5-1-7-9-8-6-4-7-0"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;display:inline;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans Bold"
+       xml:space="preserve"
+       transform="matrix(1.1159044,0,0,1,665.65975,732.0535)"
+       inkscape:export-filename="/home/sdake/repos/slides/sdake-cloudopen-heat-2013-09/heat_autoscaling_workflow.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion4137-6-5-6-2-7-5-1-7-7-17-2-8-7-9-0-0-0-4" /><flowPara
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans Bold"
+         id="flowPara4141-0-6-8-4-1-4-6-4-3-8-8-6-3-9-5-6-3-0">Heat CLI</flowPara></flowRoot>    <rect
+       ry="18.498734"
+       rx="26.530891"
+       y="686.39062"
+       x="347.56824"
+       height="62.246716"
+       width="817.36493"
+       id="rect4065-6-9-3-7-7-4-0-8-7-9-5-1"
+       style="fill:#574dd8;fill-opacity:1;stroke:#7972d8;stroke-width:2.27563548;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       inkscape:transform-center-x="-888.55122"
+       inkscape:transform-center-y="11.453945"
+       inkscape:export-filename="/home/sdake/repos/slides/sdake-cloudopen-heat-2013-09/heat_autoscaling_workflow.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <flowRoot
+       id="flowRoot4135-5-4-8-7-5-2-7-2-6-5-1-7-9-8-8-3-9-9"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;display:inline;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans Bold"
+       xml:space="preserve"
+       transform="translate(483.22335,728.69777)"
+       inkscape:export-filename="/home/sdake/repos/slides/sdake-cloudopen-heat-2013-09/heat_autoscaling_workflow.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion4137-6-5-6-2-7-5-1-7-7-17-2-8-7-9-3-3-2-9" /><flowPara
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans Bold"
+         id="flowPara4141-0-6-8-4-1-4-6-4-3-8-8-6-3-9-4-6-9-1">Register Images with Glance</flowPara></flowRoot>    <path
+       style="fill:#574dd8;fill-opacity:1;fill-rule:evenodd;stroke:#7972d8;stroke-width:2.11941004;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 756.08715,847.0696 17.4375,-46.80176 -9.7204,0.24278 0,-42.36127 -15.1072,0 0,42.74501 -9.7203,0.24279 17.1104,45.93245 z"
+       id="rect2985-4-0-7"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/sdake/repos/slides/sdake-cloudopen-heat-2013-09/heat_autoscaling_workflow.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <flowRoot
+       id="flowRoot4135-5-4-8-7-5-2-7-2-6-5-1-7-9-8-6-4-7-0-4"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;display:inline;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans Bold"
+       xml:space="preserve"
+       transform="matrix(1.1159044,0,0,1,665.65975,908.1231)"
+       inkscape:export-filename="/home/sdake/repos/slides/sdake-cloudopen-heat-2013-09/heat_autoscaling_workflow.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion4137-6-5-6-2-7-5-1-7-7-17-2-8-7-9-0-0-0-4-6" /><flowPara
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans Bold"
+         id="flowPara4141-0-6-8-4-1-4-6-4-3-8-8-6-3-9-5-6-3-0-7">Heat CLI</flowPara></flowRoot>    <rect
+       ry="18.498734"
+       rx="26.530891"
+       y="862.46027"
+       x="347.56824"
+       height="62.246716"
+       width="817.36493"
+       id="rect4065-6-9-3-7-7-4-0-8-7-9-5-1-1"
+       style="fill:#574dd8;fill-opacity:1;stroke:#7972d8;stroke-width:2.27563548;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       inkscape:transform-center-x="-888.55122"
+       inkscape:transform-center-y="11.453945"
+       inkscape:export-filename="/home/sdake/repos/slides/sdake-cloudopen-heat-2013-09/heat_autoscaling_workflow.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <flowRoot
+       id="flowRoot4135-5-4-8-7-5-2-7-2-6-5-1-7-9-8-8-3-9-9-6"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;display:inline;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans Bold"
+       xml:space="preserve"
+       transform="translate(569.88351,908.3029)"
+       inkscape:export-filename="/home/sdake/repos/slides/sdake-cloudopen-heat-2013-09/heat_autoscaling_workflow.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion4137-6-5-6-2-7-5-1-7-7-17-2-8-7-9-3-3-2-9-0" /><flowPara
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans Bold"
+         id="flowPara4141-0-6-8-4-1-4-6-4-3-8-8-6-3-9-4-6-9-1-9">Start Heat Template</flowPara></flowRoot>  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="components"
+     style="display:inline"
+     transform="translate(0,-62.3622)">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot8356"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="translate(47,-22)"
+       inkscape:export-filename="/home/sdake/repos/slides/sdake-cloudopen-heat-2013-09/heat_autoscaling_workflow.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion8358"><rect
+           id="rect8360"
+           width="929"
+           height="809"
+           x="-127"
+           y="111.36218" /></flowRegion><flowPara
+         id="flowPara8362" /></flowRoot>    <text
+       sodipodi:linespacing="125%"
+       id="text3550"
+       y="795.36218"
+       x="444"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/home/sdake/repos/slides/sdake-cloudopen-heat-2013-09/heat_autoscaling_workflow.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="795.36218"
+         x="444"
+         id="tspan3552"
+         sodipodi:role="line" /></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3392"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="translate(47,40.3622)"
+       inkscape:export-filename="/home/sdake/repos/slides/sdake-cloudopen-heat-2013-09/heat_autoscaling_workflow.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion3394"><rect
+           id="rect3396"
+           width="509"
+           height="67"
+           x="258"
+           y="320" /></flowRegion><flowPara
+         id="flowPara3398" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot8356-9"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       transform="translate(1436.548,-71.3256)"
+       inkscape:export-filename="/home/sdake/repos/slides/sdake-cloudopen-heat-2013-09/heat_autoscaling_workflow.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion8358-6"><rect
+           id="rect8360-0"
+           width="929"
+           height="809"
+           x="-127"
+           y="111.36218" /></flowRegion><flowPara
+         id="flowPara8362-9" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3392-1"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       transform="translate(1436.548,-8.9634)"
+       inkscape:export-filename="/home/sdake/repos/slides/sdake-cloudopen-heat-2013-09/heat_autoscaling_workflow.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion3394-4"><rect
+           id="rect3396-6"
+           width="509"
+           height="67"
+           x="258"
+           y="320" /></flowRegion><flowPara
+         id="flowPara3398-1" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3577"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Sans;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px"
+       inkscape:export-filename="/home/sdake/repos/slides/sdake-cloudopen-heat-2013-09/heat_autoscaling_workflow.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion3579"><rect
+           id="rect3581"
+           width="513.3595"
+           height="114.5513"
+           x="284.25693"
+           y="138.64343" /></flowRegion><flowPara
+         id="flowPara3583" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3585"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Sans;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px"
+       inkscape:export-filename="/home/sdake/repos/slides/sdake-cloudopen-heat-2013-09/heat_autoscaling_workflow.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion3587"><rect
+           id="rect3589"
+           width="1593.8187"
+           height="799.03064"
+           x="-73.539108"
+           y="362.08917" /></flowRegion><flowPara
+         id="flowPara3591" /></flowRoot>    <flowRoot
+       id="flowRoot4135-5-4-8-7-5-2-7-2-6-5-1-7-9-8-6-4"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;display:inline;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans Bold"
+       xml:space="preserve"
+       transform="matrix(1.1159044,0,0,1,665.65975,389.49337)"
+       inkscape:export-filename="/home/sdake/repos/slides/sdake-cloudopen-heat-2013-09/heat_autoscaling_workflow.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion4137-6-5-6-2-7-5-1-7-7-17-2-8-7-9-0-0" /><flowPara
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans Bold"
+         id="flowPara4141-0-6-8-4-1-4-6-4-3-8-8-6-3-9-5-6">Heat CLI</flowPara></flowRoot>    <rect
+       ry="18.498734"
+       rx="26.530891"
+       y="343.83051"
+       x="347.56824"
+       height="62.246716"
+       width="817.36493"
+       id="rect4065-6-9-3-7-7-4-0-8-7-9"
+       style="fill:#574dd8;fill-opacity:1;stroke:#7972d8;stroke-width:2.27563548;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       inkscape:transform-center-x="-888.55122"
+       inkscape:transform-center-y="11.453945"
+       inkscape:export-filename="/home/sdake/repos/slides/sdake-cloudopen-heat-2013-09/heat_autoscaling_workflow.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <flowRoot
+       id="flowRoot4135-5-4-8-7-5-2-7-2-6-5-1-7-9-8-8-3"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;display:inline;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans Bold"
+       xml:space="preserve"
+       transform="translate(413.79952,386.13764)"
+       inkscape:export-filename="/home/sdake/repos/slides/sdake-cloudopen-heat-2013-09/heat_autoscaling_workflow.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion4137-6-5-6-2-7-5-1-7-7-17-2-8-7-9-3-3" /><flowPara
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans Bold"
+         id="flowPara4141-0-6-8-4-1-4-6-4-3-8-8-6-3-9-4-6">Create Disk Image Builder Elements</flowPara></flowRoot>    <path
+       style="fill:#574dd8;fill-opacity:1;fill-rule:evenodd;stroke:#7972d8;stroke-width:2.11941004;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 756.08721,504.50949 17.43745,-46.80178 -9.72036,0.24278 0,-42.36127 -15.10719,0 0,42.74501 -9.72037,0.24279 17.11047,45.93247 z"
+       id="rect2985-4"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/sdake/repos/slides/sdake-cloudopen-heat-2013-09/heat_autoscaling_workflow.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <flowRoot
+       id="flowRoot4135-5-4-8-7-5-2-7-2-6-5-1-7-9-8-6-4-7"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;display:inline;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans Bold"
+       xml:space="preserve"
+       transform="matrix(1.1159044,0,0,1,665.65975,560.22654)"
+       inkscape:export-filename="/home/sdake/repos/slides/sdake-cloudopen-heat-2013-09/heat_autoscaling_workflow.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion4137-6-5-6-2-7-5-1-7-7-17-2-8-7-9-0-0-0" /><flowPara
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans Bold"
+         id="flowPara4141-0-6-8-4-1-4-6-4-3-8-8-6-3-9-5-6-3">Heat CLI</flowPara></flowRoot>    <rect
+       ry="18.498734"
+       rx="26.530891"
+       y="514.56366"
+       x="347.56824"
+       height="62.246716"
+       width="817.36493"
+       id="rect4065-6-9-3-7-7-4-0-8-7-9-5"
+       style="fill:#574dd8;fill-opacity:1;stroke:#7972d8;stroke-width:2.27563548;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       inkscape:transform-center-x="-888.55122"
+       inkscape:transform-center-y="11.453945"
+       inkscape:export-filename="/home/sdake/repos/slides/sdake-cloudopen-heat-2013-09/heat_autoscaling_workflow.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <flowRoot
+       id="flowRoot4135-5-4-8-7-5-2-7-2-6-5-1-7-9-8-8-3-9"
+       style="font-size:24px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;display:inline;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans Bold"
+       xml:space="preserve"
+       transform="translate(431.8464,556.87081)"
+       inkscape:export-filename="/home/sdake/repos/slides/sdake-cloudopen-heat-2013-09/heat_autoscaling_workflow.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
+         id="flowRegion4137-6-5-6-2-7-5-1-7-7-17-2-8-7-9-3-3-2" /><flowPara
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans Bold"
+         id="flowPara4141-0-6-8-4-1-4-6-4-3-8-8-6-3-9-4-6-9">Create OpenStack Heat Templates</flowPara></flowRoot>    <path
+       style="fill:#574dd8;fill-opacity:1;fill-rule:evenodd;stroke:#7972d8;stroke-width:2.11941004;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline"
+       d="m 756.08715,675.24266 17.4375,-46.80178 -9.7204,0.24278 0,-42.36127 -15.1072,0 0,42.74501 -9.7203,0.24279 17.1104,45.93247 z"
+       id="rect2985-4-0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/sdake/repos/slides/sdake-cloudopen-heat-2013-09/heat_autoscaling_workflow.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="component container shadows"
+     transform="translate(0,-62.3622)"
+     style="display:inline" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="components shadow"
+     style="display:inline"
+     transform="translate(0,-62.3622)" />
+</svg>
